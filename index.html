@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Tau Prolog en Web</title>
+</head>
+<body>
+  <h1>Sistema de Calificaiones</h1>
+<div class="caja">
+  <button class="btn" onclick="alumnos()">Conocer alumnos</button>
+  <button class="btn" onclick="calificaciones_ba()">Ana paso la basica</button>
+  <button class="btn" onclick="calificaciones_int()">Ana paso la intermedia</button>
+  <button class="btn" onclick="calificaciones_ba_juan()">Juan paso la basica</button>
+  <button class="btn" onclick="calificaciones_int_juan()">Juan paso la intermedia</button>
+  <button class="btn" onclick="puede_ana()">¿Puede Ana tomar programacion avanzada?</button>
+  <button class="btn btn_centrado1" onclick="puede_juan()">¿Puede Juan tomar programacion avanzada?</button>
+  <button class="btn btn_centrado2" onclick="calificaciones_juan()">¿Por que no puede tomar Juan la materia?</button>
+</div>
+  
+  <div class="fondo" id="resultado"></div>
+
+  <footer class="footer">
+    <p>Hecho por Bailon.ing</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/tau-prolog@0.3.2/modules/core.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
